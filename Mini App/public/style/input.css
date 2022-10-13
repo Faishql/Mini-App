@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tool-box {
+    @apply h-[100px] border-[1px] rounded-lg border-sec-green flex items-center mb-[1em];
+}
+.tool-box svg {
+    @apply w-[4rem] mx-[16px];
+}
+.box-data {
+    @apply rounded-3xl px-[20px] py-[10py] text-center;
+}
+
+button:hover {
+    opacity: 60%;
+}
+.outline-btn:hover {
+    @apply bg-sec-green border-none text-bg-white;
+}
+.menu-item:hover {
+    @apply border-[1px] border-sec-green rounded;
+}
